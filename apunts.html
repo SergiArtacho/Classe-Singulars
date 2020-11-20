@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apunts</title>
+    <link rel="stylesheet" href="./apunts.css">
+    <script src="https://kit.fontawesome.com/400552c813.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>Apunts</h1>
+    <h2>Apunts d'HTML</h2>
+    
+    <p>HTML 5 és la versió més actual.</p>
+    
+    <h2>Índex</h2>
+    <ol>
+        <li><a href="#shotcurt">Draceres Visual Code</a></li>
+        <li><a href="#estruc">L'estructura d'HTML</a></li>
+        <li><a href="#tags">Etiquetes</a></li>
+        <li><a href="#estil">Estil</a></li>
+        <li><a href="#list">Llista</a></li> 
+        <li><a href="#link">Enllaç</a></li>  
+        <li><a href="#SobCSS">Sobre CSS</a></li> 
+        <li><a href="#border">Bordes</a></li>
+        <li><a href="#fonts">Fonts</a></li>
+        <li><a href="#display"> Display</a></li>
+        <li><a href="#workclass">Treballs a Classe</a></li>
+        <li><a href="#extensions">Extensions</a></li>
+        
+        
+    </ol>
+    
+<h2 id="shotcurt">Draceres Visual Code</h2>
+        <ul>
+                <li><p>
+                    Ctrl + Shift + P –––> busca de comandos
+                </p></li>
+                
+                <li><p>
+                    Ctrl+ d –––> És poden seleccionar diferents coses al mateix temps
+                </p></li>
+
+                <li><p>
+                    Seleccionem una línia + wrap with abbreviation ---> posa les tags per a tota la línia
+                </p></li>
+
+                <li><p>
+                    Ajustar bé totes les línies –––> "Command + Mayus + P", "Indent" i "re-indent lines"
+                </p></li>
+
+                <li><p>Crear la base d'un document: "!"
+                Crear un comentari, no visible, introduïr ––––> "diplé"+ ! seguit de dos guions i automàticament VSC ho marcarà en verd</p></li>
+
+                <li> <p>
+                    Guardar un arxiu –––> "Command + S" (MAC) o "Control + S" (Windows)
+                </p></li>
+
+                <li><p>
+                    Obrir el document a Chrome ––––>"Alt + B"
+                </p></li>
+
+                <li><p>Salt de línia ––––> Utilitzem paràgrafs, "p".
+                "br" és pot utilitzar per a fer un salt de línea pero ja no s'utilitza.</p></li>
+
+                <li><p>
+                    Refer una acció –––> "Command + Z" (MAC) o "Control + Z" (Windows).
+                </p></li> 
+
+                <li><p>
+                    Alt+Z––––> Tallar codi per tenir visió de tot el text sense haver de correr la pantalla
+                </p></li>   
+        </ul>
+
+<h2 id="estruc">L'estructura d'HTML </h2>
+    <p>En el moment de crear el document base, l'estructura d'HTML és la següent:</p>
+    
+    <div class="code">
+     <pre>
+    &lt;!DOCTYPE html&gt;
+    &lt;html lang=&quot;en&quot;&gt;
+    &lt;head&gt;
+        &lt;meta charset=&quot;UTF-8&quot;&gt;
+        &lt;title&gt;Document&lt;/title&gt;
+        &lt;style&gt;&lt;/style&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        
+    &lt;/body&gt;
+    &lt;/html&gt;
+    </pre>
+    </div>
+    
+    
+    <p>
+    El text comença indicant-nos el format &lt;!DOCTYPE html&gt; , seguidament hem d'indicar la llengua en que escriurem la nostre web , &lt;html lang=&quot;en&quot;&gt;.
+    </p>
+    <p> 
+        L'element  &lt;head&gt; és un contenidor per a metadades (dades sobre dades) i se situa entre l'etiqueta html i l'etiqueta &lt;body&gt;.Les metadades HTML són dades sobre el document HTML. Les metadades no es mostren.Normalment, les metadades defineixen el títol del document, el conjunt de caràcters, els estils, els scripts i altra informació meta. L'element &lt;body&gt conté tot el contingut d'un document HTML, com ara encapçalaments, paràgrafs, imatges, hiperenllaços, taules, llistes, etc. Nota: Només hi pot haver un element &lt;body&gt en un document HTML. Per configurar l'estètica en aquest cas amb el CSS, L’atribut &lt;style&gt; s’utilitza per afegir estils a un element, com ara color, tipus de lletra, mida i molt més. 
+    </p>
+    <p>Si volem fer comentaris sobre el codi sense que s'executin, a Html, hem de fer &lt;!----&gt; i a CSS /* Comentari */ </p> 
+
+
+
+    <h2 id="tags">Etiquetes</h2>
+        <p>
+        p és una etiqueta (tag), style és un atribut (atribute), com menys etiquetas millor, la majoria de coses ho pots fer a style directament.
+        És a dir, encomptes d'escriure el codi a cada línea, ho configurem previament a style.
+        </p>
+         <ul>
+             <li><p>h1,h2,h3... –––> Per fer els títols,
+             el principal l'executarem amb h1, d'aquest només hi pot haver-hi un, per a títols secundaris hi ha h2,h3...</p>      
+             </li>
+            <li><p>
+                Pre–––>Tot el que hi hagi dintre d'un pre s'interprenta (els espais incolosos). Útil per posar trossets de codi.
+            </p>
+                <pre>Exemple de pre</pre>
+            </li>
+            <li><p>
+                p––––> Per fer paràgrafs
+            </p></li>
+            <li><p>span––––> Per canviar l'estil de unes poques línies</li>
+            <li> hr––––> Per fer una línia horitzontal</p></li>
+            <li><p>img––––> Per insertar imatges, és pot fer tant amb imatges guardades al pc(millor)
+            o amb url. Src per marcar la ruta o enllaç i alt per posar el text que apareix al posar el cursor un cop a la web.</p>
+            </li>
+            <li><p>head–––> indica que comença la capçalera de la pàgina. S'hi sol posar el títol (&lt;title&gt;) de la web, una descripció i altres informacions relacionades amb el contingut de la pàgina.</p></li>
+            <li><p>
+                body––––> Es el cos de la pàgina, on va el que es veu en el navegador al carregar la pàgina. En el body van els textos, les imatges i tots els continguts del web.
+            </p></li>
+
+            <li><p>a–––> Defineix els enllaços</p></li>
+
+            <li>ul ––––>els textos dins d'aquesta etiqueta s'estructuren en llistes. Mitjançant l'ús &lt;li&gt; dedefinim cada guió dintre de la llista, i usant &lt;ol&gt; en lloc de &lt;ul&gt;  tindrem llistes ordenades.<p>
+
+            </p></li>
+
+            <li><p>iframe ––––> Et permet posar directament una paginà web,
+            un video de youtube, un mapa...
+            </p></li>
+
+
+         </ul>
+         
+       
+    <h2 id="style">Estil</h2>
+        <p>Dintre d'estil, podem configurar l'estetica, com per exemple en el text, com el color, el fons del text...
+            La funció margin:auto, indica els marges de manera automatica.
+        </p>
+        <p style="margin-block-start: 2em; color: aqua;"> Hello world</p> 
+
+        <div class="code">
+            <pre>  codi: &lt;p style=&quot;margin-block-start: 2em; color: aqua;&quot;&gt; Hello world&lt;/p&gt; </pre>
+        </div>
+
+        <p style="background-color: blanchedalmond;">Hola mundo en castellà</p>
+
+        <div class="code"><pre>  codi: &lt;p style=&quot;background-color: blanchedalmond;&quot;&gt;Hola mundo en castell&agrave;&lt;/p&gt; </pre>
+        </div>
+
+    <p>background-color: Estableix el color de fons d'un element.
+    El fons d'un element és la mida total de l'element, inclòs el farciment i la vora (però no el marge). És pot fer també amb imatges, background-image.
+    </p>
+            
+    <h2 id="list">Llista</h2>
+
+    <p>Trobem dos tiupus de llista:</p>
+
+            <h3>Llista desordenada</h3>
+            <ul> <!-- Llistes no ordenadas-->
+                <li>Laia</li><!--Elements de llista-->
+                <li>Julian</li>
+                <li>Óscar</li>
+            </ul>
+    
+    <p>  <p>Per fer una llista desordenada utilitzem &lt;ol&gt; i per cada element de la llista, ho fem amb &lt;li&gt;</p></p>
+    
+    
+            <h3>Llista ordenada</h3>
+            <ol> <!--Llistes sordenades-->
+                <li><p style=" margin: 0; font-style: italic;"> Laia</li><!--Elements de llista-->
+                    <li><p style="margin: 0; font-weight: bold;"> Julian</li>
+                        <li>Óscar</li>
+                        
+                    </ol>
+        <p> Per fer una llista ordenada utilitzem &lt;ol&gt; i per cada element de la llista, ho fem amb &lt;li&gt;.</p>
+        <p>A la llista ordenada hi apareixen números.</p>
+            
+  
+                    
+    <h3>Estil dels elements dintre de les llistes</h3>
+
+                    <ol> 
+                        <li><p style="margin: 0; font-weight: bolder;">Laia</li>
+                            <li> <p style="margin: 0; font-style: oblique;"> Julian </p></li>
+                            <li><p style="text-decoration: underline; margin: 0;"> Óscar</li>
+                    </ol>
+                                
+            <p>Si volem afegir estil dintre de la llista, ho podem fer afegint una classe (el més recomanable) 
+                o afegint l'estil a cada línea, com hem fet en l'anterior llista. Codi llista:  </p>
+
+            <pre class="code"> 
+    &lt;ol&gt; 
+        &lt;li&gt;&lt;p style=&quot;margin: 0; font-style: inherit;&quot;&gt;Laia&lt;/li&gt;
+        &lt;li&gt; &lt;p style=&quot;margin: 0; font-style: oblique;&quot;&gt; Julian &lt;/p&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;p style=&quot;text-decoration: underline; margin: 0;&quot;&gt; &Oacute;scar&lt;/li&gt;
+    &lt;/ol&gt; 
+            </pre>
+                                
+    
+    <h2 id="link">Enllaç</h2>
+                                
+        <p>h ref es referencia hipervinculo, target= "blank" per obrir el link en un altre pestanya.</p>
+        <p>Podem enllaçar tant documents com planas web</p>
+                                
+        
+        <h4>Proves d' <a href="https://www.w3schools.com/html/", target="blank">etiquetes</a></h4>
+
+        <p>codi: </p>
+
+        <pre class="code">  
+    &lt;h4&gt;Proves d' &lt;a href=&quot;https://www.w3schools.com/html/&quot;, target=&quot;blank&quot;&gt;etiquetes&lt;/a&gt;&lt;/h4&gt; 
+    </pre>
+
+
+    <p>Per poder afegir una imatge a la capçalera de la pestanya web:Un favicon és la petita imatge que mostra en la pestaña del navegador o en la llista de marcadors (favorits). A la barra d’adreça, el tamany del favicon és bastant reduït, 16x16 píxels, però en altres llocs com els marcadors poden tenir una mida major (24x24, 32x32, 48x48 o 64x64).
+    </p>
+
+
+    <pre class="code">
+
+        &lt;link rel=&quot;icon&quot; href=&quot;favicon.ico&quot; type=&quot;image/x-icon&quot;/&gt;
+
+        &lt;link rel=&quot;shortcut icon&quot; href=&quot;favicon.ico&quot; type=&quot;image/x-icon&quot;/&gt;  
+
+    </pre>
+
+    <h2 id="SobCSS">Sobre CSS</h2>
+
+        <p> Tot el que hauria d'anar a l'etiqueta style, ho fiquem a un doc CSS. Aixó ho fem través de Link (nova etiqueta per linkar al CSS),ho posarem al head</p>
+                                
+        <p>El CSS (fulls d'estil en cascada) és un llenguatge que defineix l'aparença d'un document escrit en un llenguatge de marcat (per exemple, HTML). ... Aquesta separació entre l'estructura i la presentació és molt important, ja que permet que només canviant els CSS es modifiqui completament l'aspecte de la nostra pàgina.  </p>
+
+        <p>
+            Pots fer marge directament, o seleccionar entre els 4 marges. O sobre la mateixa funció original a través de 0 0 0 0.
+        </p>
+        
+        <p>
+            Les classes s'identifiquen amb un punt. L' identificador amb # ( Els id són unics les classes, no.)
+        </p>
+    
+    
+   <h2 id="border"> Bordes</h2>
+
+   <p> La propietat image-border permet especificar una imatge que s’utilitzarà com a vora al voltant d’un element.</p>
+
+   <h2 id="fonts">Fonts</h2>
+
+   <ul>
+
+   <li><p>Importar fonts –––>Amb la funció @ font-face, primer heu de definir un nom per al tipus de lletra (per exemple, myFirstFont) i, a continuació, assenyalar el fitxer de tipus de lletra. Pot ser importada des de una carpeta o descarregada</p></li>
+
+   <li><p>La propietat font-family especifica la font d’un element.</p></li>
+
+   <li><p>
+       La propietat font-size estableix la mida d’una font.
+   </p></li>
+
+   <li><p> font-style especifica l'estil de lletra d'un text.</p></li>
+
+   </ul>
+
+
+
+<h2 id="display"> Display</h2>
+
+<p>La propietat de visualització especifica el comportament de visualització (el tipus de quadre de representació) d'un element. En HTML, el valor de propietat de visualització per defecte es pren de les especificacions HTML o del full d'estil predeterminat del navegador / usuari. El valor per defecte a XML és en línia, inclosos els elements SVG.</p>
+
+<ul>
+
+    <li> <p>
+        Inline––––> Mostra un element com a element en línia. Les propietats d’alçada i amplada no tindran cap efecte
+    </p> </li>
+
+    <li><p>
+        Block––––> Mostra un element com a element de bloc. Comença per una línia nova i ocupa tota l'amplada
+    </p></li>
+
+    <li><p>
+        Flex–––> Mostra un element com a contenidor flex a nivell de bloc
+    </p></li>
+
+    <li> <p>
+        Gird––––> 	Mostra un element com a contenidor de quadrícula a nivell de bloc.
+    </p></li>
+
+    <li><p>
+        Inline-block––––> Mostra un element com a contenidor de blocs a nivell de línia. L'element en sí té el format d'un element en línia, però podeu aplicar valors d'alçada i amplada
+    </p></li>
+
+    <li><p>
+        Inline-flex––––––> Mostra un element com a contenidor flexible a nivell de línia.
+    </p></li>
+
+    <li><p>
+        Inline-gird––––––> Mostra un element com a contenidor de quadrícula en línia
+    </p></li>
+
+    <li><p>
+        Display-none: Es pot ocultar un element configurant la propietat de visualització a cap. L'element quedarà amagat i la pàgina es mostrarà com si l'element no hi fos
+    </p></li>
+
+
+</ul>
+
+<h2 id="float"> Float</h2>
+
+<p>La propietat CSS float situa un element a la banda esquerra o dreta del seu contenidor, permetent als elements de text i en línia aparèixer al seu costat. L'element és remogut del flux normal de la pàgina, tot i que encara segueix sent part d'ell (a diferència de l'posicionament absolut).</p>
+
+<p>Sintaxis</p>
+
+<ul>
+    <li> <p>left</p>
+    </li>
+    <li><p>right</p></li>
+    <li><p>none</p></li>
+    <li><p>inline-start</p></li>
+    <li><p>inline-end</p></li>
+</ul>
+             
+
+        <h2 id="workclass">Treballs a Classe</h2>
+
+        <ul>
+                                
+            <li>
+                <p><a href="./hola.html">Treball primer dia</a></p>
+            </li>
+            
+            <li>
+                <p><a href="./Treball.html">Treball noticies</a></p>
+            </li>
+
+            <li><p>
+                <a href="./Provesdisseny.html">Proves de disseny</a>
+            </p></li>
+
+          <li>
+              <p><a href="./maquettext.html"> Maquetació Vertical</a></p>
+          </li>
+
+          <li> <p>
+              <a href="./quatrecolumnes.html"> Quatre columnes</a>
+          </p></li>
+
+          <li> <p>
+              <a href="./textsobreimatge.html"> Text sobre imarge</a>
+          </p></li>
+
+          <li><p>
+              <a href="./penya.html"> 3 Estils CSS</a>
+          </p></li>
+    
+          <li><p>
+              <a href="./quadrats.html"> Finestres flex, block i float</a>
+          </p></li>
+    
+        
+        
+        </ul>
+
+    
+    <h2 id="Hover">Hover</h2>
+
+    <p> El selector: hover s'utilitza per seleccionar elements quan es passa el ratolí sobre ells. Es pot utilitzar en tots els elements, no només en els enllaços.</p>
+
+  <p>coincideix quan l'usuari interactua amb un element amb un dispositiu apuntador, però no necessàriament ho activa. Generalment s'activa quan l'usuari es desplaça sobre un element amb el cursor (punter de ratolí).</p>
+
+  <p> Exemple:</p>
+
+    <ul>
+        <li class="hoverex"><a href="#" >
+                Això és un hover</a>
+        </li>
+
+    </ul>
+
+    <p>CODI:</p>
+
+
+    <pre class="code">
+
+        HTML:
+ &lt;ul&gt;
+        &lt;li class=&quot;hoverex&quot;&gt;&lt;a href=&quot;#&quot; &gt;
+                Aix&ograve; &eacute;s un hover&lt;/a&gt;
+        &lt;/li&gt;
+
+    &lt;/ul&gt;
+
+
+        CSS:
+
+        hoverex {
+            background-color:black;
+            border: 1px solid;
+            list-style: none;
+            max-width: max-content;
+        }
+
+
+
+        .hoverex a{
+            text-decoration: none;
+            color: yellow;
+        }
+
+        .hoverex:hover{
+            background-color: yellow;
+            transform: scale(1.2);
+        }
+
+        .hoverex a:hover{
+            color: black;
+        }
+                
+
+
+
+    </pre>
+
+    <p>Si ho combinem amb el display none, podem fer que apareguin coses:</p>
+
+    <div class="tocar">
+
+        <p>HOVER APAREIX IMATGE </p>
+        
+            <div class="oculto"><img src="./imgpenya/logo.png" alt="Logo"></div>
+        
+        </div>
+
+
+
+     <div>
+         <p>Si volem que predomini un element per sobre de l'altre,  utlitzem el z-index: La propietat índex z especifica l'ordre de pila d'un element.Un element amb un ordre de pila més gran sempre està davant d’un element amb un ordre de pila inferior. (Mirar exercici quadres).</p>
+     </div>
+        
+
+    <h2 id="extensions">Extensions</h2>
+
+    <p> 
+        Les funcions que Visual Studio Code inclou de manera immediata són només l’inici. Les extensions de codi VS permeten afegir idiomes, depuradors i eines a la vostra instal·lació per donar suport al vostre flux de treball de desenvolupament.</p>
+
+    <ul>
+        <li>Browser–––> Obrir el navegador amb draçera</li>
+        <li>Placeholder––––> Lorem amb imatge</li>
+        <li>Live Server––––> S'executa en un navegador l'arxiu que s'està modificant, aquest explorador s'actualitza amb cada canvi en el fitxer</li>
+
+    </ul>
+
+
+<h2 class="Iframe">Iframe</h2>
+
+<p>Et permet posar directament una paginà web,
+    un video de youtube, un mapa...</p>
+
+<h3>Iframe paàgina web</h3>
+
+<iframe src="https://www.penya.com/ca/" frameborder="0",
+width="400" height="400"></iframe>
+
+<p>codi:</p>
+
+<pre class="code">
+
+    &lt;iframe src=&quot;https://www.penya.com/ca/&quot; frameborder=&quot;0&quot;,width=&quot;400&quot; height=&quot;400&quot;&gt;&lt;/iframe&gt;
+
+</pre>
+
+<h3>Iframe video</h3>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xqumFsNmfWg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p> En el cas de Youtube, si anem a compartir, ens dona el codi:</p>
+
+<pre class="code">
+
+    &lt;iframe width=&quot;560&quot; 
+    height=&quot;315&quot; 
+    src=&quot;https://www.youtube.com/embed/xqumFsNmfWg&quot; 
+    frameborder=&quot;0&quot; 
+    allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; 
+    allowfullscreen&gt;&lt;/iframe&gt;
+
+</pre>
+
+<h3> Iframe mapa</h3>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23912.47831399913!2d2.3035247992544354!3d41.48130347357175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4b0bc42c62b29%3A0x6bbab63bed7dc0ac!2sEl%20Masnou%2C%20Barcelona!5e0!3m2!1sca!2ses!4v1605173011641!5m2!1sca!2ses" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+
+<p>A Google Maps, si anem a compartir, ens dona el codi:</p>
+
+
+<pre class="code">
+
+    &lt;iframe src=&quot;
+    https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23912
+    47831399913!2d23035247992544354!3d4148130347357175!2m3!1f0
+    !2f0!3f0!3m2!1i1024!2i768!4f131!3m3!1m2!1s0x12a4b0bc42c62b
+    29%3A0x6bbab63bed7dc0ac!2sEl%20Masnou%2C%20Barelona!5e0!3m2
+    !1sca!2ses!4v1604661975248!5m2!1sca!2ses&quot; 
+    width=&quot;600&quot; height=&quot;450&quot; frameborder=&quot;0&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; 
+    aria-hidden=&quot;false&quot; tabindex=&quot;0&quot;&gt;&lt;/iframe&gt;
+
+    </pre>
+
+<h3> Twitter</h3>
+
+<blockquote class="twitter-tweet"><p lang="und" dir="ltr">💣 BOOOOOOOOMMMM!!!<a href="https://twitter.com/hashtag/Badalona%C3%89sFutur?src=hash&amp;ref_src=twsrc%5Etfw">#BadalonaÉsFutur</a> <a href="https://t.co/1sTlmvuEaV">pic.twitter.com/1sTlmvuEaV</a></p>&mdash; Club Joventut Badalona (@Penya1930) <a href="https://twitter.com/Penya1930/status/1324638694461083654?ref_src=twsrc%5Etfw">November 6, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p> Dintre del propi tweet et genera el codi</p>
+
+
+<h2 class="fontawesome"> Font awesome </h2>
+
+<p>Font Awesome és un conjunt d'eines de tipus de lletra i icona per poder utilitzar dintre del nostre codi. Ens permet agafar les icones com a text, el que ens facilita molt la seva gestió. Hem de copiar un codi que ens facilita la mateixa pàgina, en el head del doc. Molt útil sobretot per colocar icones.</p>
+
+<ul class="xarxes">
+
+    <li>
+       
+        <a href="https://twitter.com/sergiartacho?lang=ca" class="twitter"><i class="fab fa-twitter"></i></a>
+    
+
+        <a href="https://www.instagram.com/femmasnou/" class="insta"><i class="fab fa-instagram"></i></a> 
+
+        <a href="https://www.facebook.com/FemMasnou/"
+        class="fb"><i class="fab fa-facebook-f"></i></a>
+
+        <a href="https://fontawesome.com" class="fontawesome"><i class="fab fa-font-awesome-flag"></i></a>
+
+    </li>
+
+        <li>
+        
+        <a href="https://www.youtube.com/watch?v=nOkCj_TOVQs" class="youtube"><i class="fab fa-youtube" ></i></a>
+        
+        <a href="https://www.twitch.tv/ibai"><i class="fab fa-twitch" class="twitch"></i></a>
+        
+        <a href="https://t.me/s/FemMasnou?before=76" class="telegram"><i class="fab fa-telegram-plane"></i></a>
+    
+    </li>
+    </ul>
+
+
+
+    </body>
+    </html>
+
+
+
+                            

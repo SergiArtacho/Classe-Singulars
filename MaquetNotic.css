@@ -1,0 +1,77 @@
+
+
+
+body{
+    max-width: 1024px;
+    margin: auto;
+    background-image: url(./ImatgeNoticies/periodico.jpg);
+
+}
+
+.noti{
+    background-color: wheat;
+    padding: 10px 10px 10px 10px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: justify;
+    line-height:23px;
+    padding: 0px 14px 3px 10px;
+    margin-bottom: 37px;
+}
+
+
+
+h3{
+    font-style: oblique;
+    text-align: center;
+    text-shadow: 1px 1px red;
+    text-decoration: underline;
+    padding-top: 25px;
+    
+}
+
+
+.img1{
+    
+ float: left;
+ border: 18px groove;
+ line-height: 0;
+
+}
+
+.pg1{
+    padding: 0 0 0px 303px;
+}
+
+.mod1{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: justify;
+    line-height:23px;
+    padding: 0 0 0px 5px;
+}
+
+.img2{
+    float: right;
+    border: 10px solid;
+    line-height: 0;
+    border-image: url(./ImatgeNoticies/Unknown.png) 30 round;
+}
+
+.pg2{
+    padding:0px 340px 5px 0px;
+}
+
+.img3{
+  
+        background-image: url(http://cdn2.hubspot.net/hubfs/763617/images/img-left.png?t=1466090614807);
+        padding: 5px 10px 5px 10px;
+        margin: 2px;
+        display:inline-block;
+        width: 200px;
+        text-align: center;
+}
+.noti1{
+    background-color: wheat;
+    position: absolute;
+    width: 50%;
+    height: 50%;
+}

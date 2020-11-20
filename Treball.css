@@ -1,0 +1,51 @@
+
+@font-face {
+    font-family: maquina;
+    src: url(./REC/SyneMono-Regular.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,400;1,900&display=swap');
+
+
+    body{
+        margin: auto;
+        max-width: 1024px;
+    }
+
+
+    h2 {
+        text-align: center;
+        font-family: maquina;
+        font-style: oblique;
+        border-bottom: 3px solid tomato;
+    }
+
+    h3{
+        text-align: center;
+        font-style: oblique;
+        font-family: maquina;
+        color: greenyellow;
+    }
+
+    span.bold{
+        font-weight: bold;
+        color: gray;
+    }
+    
+    span.date{
+        background-color:black 
+               }
+
+    div.news{
+        margin-top: 2em;
+    }
+
+    div.header{
+        margin: auto; 
+        border-style: solid; color: red;width: 80; height: 90;
+
+    }
+
+    div.news p{
+        text-align: justify;
+    }

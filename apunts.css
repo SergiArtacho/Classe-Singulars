@@ -1,0 +1,141 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    max-width: 1024px;
+    margin-top: 2em;
+    background-image: url(./ImatgeNoticies/fonsblue.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.code{
+    border:grey;
+    border-style: solid; 
+    background-color: rgba(136, 138, 138, 0.4);
+    width:fit-content;
+    padding: 0 3em 0 0;
+    
+}
+
+p{
+    size: 7;
+    text-align: justify;
+    font-family: 'Lato', sans-serif;
+}
+
+h2 {
+    color: #323133;
+     font-family: Helvetica Neue, Arial, Helvetica, sans-serif;
+    letter-spacing: -1px;
+    text-decoration: none; 
+    text-shadow: 1px 1px #fff, 0 0 #0e0e0e, 2px 3px 1px #e3e3e3; 
+    text-transform: none; 
+    word-spacing: -2px;
+    }
+
+    
+h1{
+
+text-align: center; 
+font-weight: bold;  
+background:rgb(0, 0, 230); 
+-webkit-background-clip: text; 
+-moz-background-clip: text; 
+background-clip: text; 
+color: transparent; 
+text-shadow: 0px 3px 3px rgba(255,255,255,0.4),0px -1px 1px rgba(0,0,0,0.3);
+font-size: 50px;
+}
+
+
+.hoverex {
+    background-color:black;
+    border: 1px solid;
+    list-style: none;
+    max-width: max-content;
+}
+
+
+
+.hoverex a{
+    text-decoration: none;
+    color: yellow;
+}
+
+.hoverex:hover{
+    background-color: yellow;
+    transform: scale(1.2);
+}
+
+.hoverex a:hover{
+    color: black;
+}
+
+.oculto{
+    text-align: center;
+    display: none;
+}
+
+
+.tocar:hover .oculto{
+     display: block;
+    
+
+
+ }
+
+ ul.xarxes{
+    list-style: none;
+    line-height: 2.5;
+    padding: 0;
+   
+  
+}
+
+ul.xarxes, i{
+    font-size: 50px;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+
+.xarxes a:hover{
+    color: black;
+}
+
+a.youtube{
+    color: red;
+}
+
+a.twitch{
+    color: purple;
+}
+
+a.fontawesome{
+    color: white;  
+}
+   
+
+a.insta{
+    color: orangered;
+}
+
+a.telegram{
+    color:rgb(65, 87, 158);
+}
+
+a.fb{
+    color: rgb(11, 11, 235);
+}
+
+a.twitter{
+    color: aqua;
+}

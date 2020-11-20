@@ -1,0 +1,210 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+   
+
+    background-image: url(./IMATGES/fonsprinc.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.cont{
+  
+    width: 100%;
+    
+    
+}
+
+.tot{
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    width: 100%;
+    background-color: rgba(28, 40, 70, 0.6);
+    background: rgba(28, 40, 70, 0.6);
+    color: rgba(28, 40, 70, 0.6);
+    position: fixed;
+    
+   
+}
+
+.menu li{
+    padding: 1em;
+}
+
+.menu a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    
+
+    
+}
+
+.barra{ 
+    border-right: 2px solid white;
+    height: 100%;
+    
+     }
+
+.menu a:hover{
+    color: red;
+  
+
+}
+
+.menu li:hover{
+    background-color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.1);
+
+}
+
+
+
+
+.conttext{
+    background-color: white;
+    width: 100%;
+}
+
+.textgran{
+    text-align: center;
+    margin: 550px 0 0 0;
+    padding: 50px;
+}
+
+.textgran p{
+    border-bottom: 2px solid black;
+    padding-bottom: 50px
+    
+   
+}
+
+.textpetits{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 1.5;
+    
+}
+
+.text2{
+    width: 23.33%;
+    padding: 13px 37px 0px 36px;
+    
+    
+}
+
+ul.Read{
+    list-style: none;
+    background-color: red;
+    padding: 10px;
+    margin: 10px;
+ 
+}
+
+ul.Read a{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    padding: 0px 37px 0px 36px;
+}
+
+ul.Read a:hover{
+   color: black;
+}
+
+.fotostext{
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: justify;
+    margin: 50px 10px 10px 50px;
+
+}
+
+.fot{
+    width: 300px;
+    padding: 0px 2em 2em 2em;
+    margin: 0px 9px 0px 20px;
+}
+
+.fot p{
+    padding: 1em;
+}
+
+.fot h4{
+    margin: auto;
+    padding: 10px 10px 0px 0px;
+    text-align: center;
+    color: red;
+}
+
+.cuadretrans{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    height: 200px;
+    background-color: rgba(28, 40, 70, 0.6);
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+h2{
+    line-height: 1.5;
+    color: red;
+    margin-bottom: 10px;
+}
+
+h3{
+    color: red;
+    margin-bottom: 10px;
+}
+
+
+ol{
+    line-height: 1.5;
+}
+
+footer{
+    width: 100%;
+    background-color: rgb(28, 40, 70);
+    text-align: center;
+    color: white;
+    height: 150px;
+    line-height: 0;
+    padding: 30px 0px 0px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.foot1{
+    line-height: 10px;
+   margin: auto;
+}
+
+.foot2{
+    margin: 0;
+    padding-bottom: 20px;
+}

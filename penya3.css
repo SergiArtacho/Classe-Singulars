@@ -1,0 +1,80 @@
+
+body{
+    max-width: 1024px;
+    margin: auto;
+   background-color: grey;
+}
+
+p{
+    text-align: justify;
+    line-height: 25px;
+    font-family: monospace;
+    color: white;
+}
+
+.con{
+    display: block;
+}
+
+div.logo{
+  float: left;
+}
+
+.img2{
+    float: right;
+    margin: 0 0 0 28px;
+
+}
+
+
+.menu {
+    display: inline-flex;
+    list-style:none;
+    padding: 0px 0px 0px 5px;
+    
+
+}
+
+.img3{
+    margin-bottom: 30px;
+    left: center;
+}
+
+
+.izq {
+    position: absolute;
+    top: 15px;
+    left: 980px;
+}
+
+
+.menu a {
+    padding: 5px;
+    color: white;
+    text-decoration:none;
+    background-color:  black;
+    border:  2px solid white;
+}
+
+.menu a:hover {
+    padding: 5px;
+    color: grey;
+}
+
+h1{
+    font-family: sans-serif;
+    text-shadow: 1px 1px white;
+    color:green;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2{
+    font-family:sans-serif;
+    box-sizing: content-box;
+    border: 5px solid;
+    color: white;
+    padding: 0px 12px 0px 12px;
+    width: fit-content;
+    margin: 0 0 0 500px;
+}

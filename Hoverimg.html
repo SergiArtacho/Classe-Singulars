@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            width: 1024px;
+            text-align: center;
+        }
+
+        .cont{
+           text-align: center;
+           display: flex;
+           flex-wrap: wrap;
+           text-align: center;
+           width: 500px;
+           margin-left: 350px;
+           line-height: 0;
+        }
+       
+       .image{
+           padding: 0.5em;
+       }
+        
+      .fons:hover .image{
+          opacity: 50%;
+      }
+     
+      .fons{
+          position: relative;
+      }
+
+      .text{
+          display: none;
+          position: absolute;
+          text-align: center;
+          color: black;
+      }
+
+      .fons:hover .text{
+          display: block;
+          font-size: 30px;
+          text-align: center;
+          left: 50px;
+          top: 50%;
+
+      }
+
+      h2{
+          text-align: center;
+          margin-left: 100px;
+      }
+
+
+     
+    </style>
+</head>
+<body>
+    <h2>La carrera de Ricky Rubio</h2>
+    
+<div class="cont">
+    
+    <div class="fons"><div class="image">
+    <img src="./imgpenya/rdkv.jpg" alt=""></div>
+    <div class="overlay">
+    <div class="text"> Badalona</div>
+    </div></div>
+
+    <div class="fons"><div class="image">
+    <img src="./imgpenya/Rbarça.jpg" alt=""
+    width="198px" height="254px"></div>
+    <div class="text">Barcelona</div>
+    </div>
+
+    <div class="fons">
+        <div class="image">
+                <img src="./imgpenya/rmin.jpg" alt=""
+                width="198px" height="254px"></div>
+                <div class="text">Minnesota</div>
+            </div>
+
+    <div class="fons">
+        <div class="image">
+            <img src="./imgpenya/rjazz.jpg" alt=""
+            width="198px" height="254px"></div>
+        <div class="text">Utah</div>
+    </div>
+
+
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body{
+            width: 1024px;
+        }
+
+        .oculto{
+            text-align: center;
+        }
+
+
+.tocar:hover .oculto{
+             display: block;
+            
+
+
+         }
+
+         .oculto{
+             display: none;
+         }
+
+         .inline{
+             display: flex;
+             flex-wrap: wrap;
+             
+             
+         }
+
+         .conth{
+             width: 200px;
+             height: 100px;
+             margin: 0 28px 20px 420px;
+            
+            
+         }
+
+         .cuadre1{
+             width: 100px;
+             height: 100px;
+             background-color: red;
+    
+         }
+
+         .cuadre2{
+             width: 100px;
+             height: 100px;
+             background-color:blue;
+           
+            
+         }
+
+         .cuadre3{
+             width: 100px;
+             height: 100px;
+             background-color:yellow;
+            
+             
+           
+         }
+
+         .cuadre4{
+
+            width: 100px;
+             height: 100px;
+             background-color:purple;
+
+         }
+        
+
+         .centre{
+
+        width: 50px;
+        height: 50px;
+        background-color:green;
+        position: relative; 
+        left: 70px;
+        top: -120px;
+    
+        }
+      
+        .cuadre1:hover{
+            z-index: 5;
+        }
+
+        .cuadre2:hover{
+            z-index: 5;
+        }
+
+        .cuadre3:hover{
+            z-index: 5;
+        }
+
+        .cuadre4:hover{
+            z-index: 5;
+        }
+        .cuadre5:hover{
+            z-index: 5;
+        }
+
+        h2{
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+
+  
+    <div class="tocar">
+
+        <h2>HOVER APAREIX IMATGE </h2>
+        
+            <div class="oculto"><img src="./imgpenya/logo.png" alt="Logo"></div>
+        
+        </div>
+
+
+   
+
+        <div class="conth inline">
+
+    <h2>HOVER SOBREPOSICIÓ</h2>
+
+            <div class="cuadre1"></div>
+            <div class="cuadre2"></div>
+            <div class="cuadre3"></div>
+            <div class="cuadre4"></div>
+            <div class="centre"></div>
+        </div>
+
+
+
+
+        
+        
+    
+</body>
+</html>

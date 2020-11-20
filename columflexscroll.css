@@ -1,0 +1,12 @@
+
+.noti1{
+    background-image: url(./ImatgeNoticies/-1x-1.jpg);
+      width: 722px;
+      height: 395px;
+      display: flex;
+      flex-wrap: wrap;
+      padding: 205px 0 0 0;
+      background-repeat: no-repeat;
+    justify-content: center;
+    padding: 208px 0 0 0;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block i hover</title>
+    <style>
+
+        body{
+            width: 1200px;
+
+        }
+
+        .finestra{
+            width: 300px;
+            height: 200px;
+            border: solid black;
+            font-size: 0;
+            
+
+        }
+        .inline{
+            display: inline-block;
+
+        }
+
+        .red{
+            width: 50px;
+            height: 200px;
+            background-color: paleturquoise;
+        }
+
+        .groc{
+            width: 200px;
+            height: 50px;
+            background-color: lightcoral;
+        }
+
+        .blau{
+            width: 200px;
+            height: 100px;
+            background-color: blue;
+        }
+        
+        .lila{
+            width: 200px;
+            height: 50px;
+            background-color: purple;
+        }
+        .verd{
+            width: 50px;
+            height: 200px;
+            background-color: green;
+        }
+
+        a div:hover{
+          filter: brightness(300%);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Block i hover</h1>
+<div class="finestra">
+    <a href="https://www.penya.com/ca/"><div class="red inline"></div></a>
+    <div class="inline">
+        <a href="https://www.movistarestudiantes.com"><div class="groc"></div></a>
+        <a href="https://www.penya.com/ca/"><div class="blau"></div></a>
+        <a href="https://www.movistarestudiantes.com"><div class="lila"></div> </div></a>
+    <a href="https://www.penya.com/ca/"><div class="verd inline"></div></a>
+</div>
+
+</body>
+</html>

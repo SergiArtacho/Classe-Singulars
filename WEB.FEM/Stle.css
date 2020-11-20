@@ -1,0 +1,210 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@300&display=swap');
+
+
+body{
+
+ max-width: 1400px;
+ margin: 0;
+
+    
+}
+
+.cos{
+    text-align: center;
+    width: 1442px;
+    
+}
+
+
+
+
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(255, 0, 0, 0.6);
+    background: rgba(255, 0, 0, 0.6);
+    color: rgba(255, 0, 0, 0.6);
+    padding: 30px 30px 30px 50px;
+    text-align: center;
+    margin: 0;
+    padding: 1em;
+    margin-bottom: 2em;
+    position: fixed;
+    width: 1410px;
+    
+
+}
+
+.menu a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    justify-content: center;
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: bolder;
+    
+    
+}
+
+.menu a:hover {
+    padding: 5px;
+    color: white;
+   
+}
+
+h1{
+    font-size: 120px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 140px;
+  
+}
+
+.title{
+    padding: 40px;
+    height: 300px;
+    line-height: 10px;
+   
+
+}
+
+.image{
+    margin: 0;
+}
+
+
+
+.conttext{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: justify;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+.text1{
+    width: 450px;
+    padding: 1em;
+}
+
+.titletxt1{
+    text-align: center;
+    
+}
+
+ul.comunic{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.comunic a{
+    text-decoration: none;
+    color: rgba(255, 0, 0, 0.6);
+    padding-top: 40px;
+    margin: 0;
+    
+}
+
+li,p{
+    line-height: 1.5;
+}
+
+.text2{
+    width: 336px;
+    text-align: justify;
+    margin: 0;
+    
+
+}
+
+.contprinc{
+    width: 70%;
+    font-size: 15px;
+    align-content: center;
+    margin: auto;
+    
+
+
+}
+
+.fons{
+background-image: url(./IMATGES/fons1.jpg);
+max-width: 1500px;
+margin: 0;
+
+}
+
+h3{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+
+ul.xarxes{
+    list-style: none;
+    line-height: 2.5;
+    padding: 0;
+   
+  
+}
+
+ul.xarxes, i{
+    font-size: 50px;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+footer{
+    width: 100%;
+    background-color: red;
+    text-align: center;
+    color: white;
+    height: 100px;
+    line-height: 0;
+    padding: 25px 0px 0px 0px;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+
+.comunic a:hover{
+    color: red;
+    padding: 0;
+
+}
+
+.xarxes a:hover{
+    color: black;
+}
+
+a.youtube{
+    color: red;
+}
+
+a.twitch{
+    color: purple;
+}
+
+a.google{
+    color: rgb(175, 20, 20);
+}
+   
+
+a.insta{
+    color: orangered;
+}
+
+a.telegram{
+    color:rgb(65, 87, 158);
+}
+
+a.fb{
+    color: rgb(11, 11, 235);
+}
+
+a.twitter{
+    color: aqua;
+}
