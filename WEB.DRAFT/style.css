@@ -141,19 +141,15 @@ ul.Read a:hover{
 }
 
 .fot{
-    width: 300px;
+    width: 40%;
     padding: 0px 2em 2em 2em;
-    margin: 0px 9px 0px 20px;
-}
-
-.fot p{
-    padding: 1em;
+    margin: 0p
 }
 
 .fot h4{
     margin: auto;
     padding: 10px 10px 0px 0px;
-    text-align: center;
+    text-align: start;
     color: red;
 }
 

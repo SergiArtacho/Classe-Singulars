@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+   
+
+    background-image: url(./IMG/fons.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.cont{
+  
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+
+.tot{
+ 
+    width: 100%;
+    
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    width: 100%;
+    background-color: rgba(28, 40, 70, 0.6);
+    background: rgba(28, 40, 70, 0.6);
+    color: rgba(28, 40, 70, 0.6);
+    
+   
+}
+
+.menu li{
+    padding: 1em;
+}
+
+.menu a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    
+
+    
+}
+
+.barra{ 
+    border-right: 2px solid white;
+    height: 100%;
+    
+     }
+
+.menu a:hover{
+    color: red;
+  
+
+}
+
+.menu li:hover{
+    background-color: white;
+    background: rgba(255, 255, 255, 0.1);
+
+}
+
+.destinos li:hover{
+    transform: scale(1.1);
+
+}
+
+.destinos p:hover{
+    color: red;
+}
+
+.bloc1 p:hover{
+    color: red;
+    transform: scale(1.1);
+}
+
+.logo{
+    justify-content: center;
+   text-align: center;
+   background-color: black;
+   height: 200px;
+   
+}
+
+.logo img{
+    padding: 2em;
+}
+
+.conttext{
+    background-color: white;
+    width: 60%;
+    margin: 270px 0 0 0;
+}
+
+.textgran{
+    text-align: center;
+    padding: 50px;
+}
+
+.txtbr{
+    border-bottom: 2px solid black;
+    padding-bottom: 50px;
+    padding-top: 25px;
+    
+   
+}
+
+.textpetits{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 1.5;
+    
+}
+
+.text2{
+    width: 23.33%;
+    padding: 13px 37px 0px 36px;
+    
+    
+}
+
+ul.Read{
+    list-style: none;
+    background-color: red;
+    padding: 10px;
+    margin: 10px;
+ 
+}
+
+ul.Read a{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    padding: 0px 37px 0px 36px;
+}
+
+ul.Read a:hover{
+   color: black;
+}
+
+.Gen{
+   
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 1em;
+
+}
+
+h2{
+    padding-left:1em;
+    padding-bottom: 1em;
+}
+
+.gen1{
+   
+    width: 100%;
+    padding: 1em;
+    line-height: 1.5;
+    
+    
+}
+
+.trans{
+    width: 100%;
+    height: 300px;
+}
+
+footer{
+    
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2em;
+    margin: 0;
+    
+}
+
+ul.xarxes{
+    list-style: none;
+    line-height: 2.5;
+    padding: 1em;
+   
+}
+
+ul.xarxes, i{
+    font-size: 50px;
+    list-style: none;
+    text-decoration: none;
+    padding: 1em;
+
+}
+
+ul.xarxes a{
+    list-style: none;
+}
+
+
+.fab{
+    color: white;
+}
+
+.far{
+    color: white;
+}
+
+ul.xarxes i:hover{
+    color: red;
+}
+
+.ofert{
+    width: 20%;
+    padding: 0em 1em 1em 1em;
+    margin: 270px 0 0 0;
+    
+  
+}
+
+.bloc1{
+    margin-bottom: 70px;
+}
+
+   
+
+.bloc1 p{
+    background-color: black;
+    color:  white;
+    text-align: center;
+    padding: 1em;
+
+}
+
+.org{
+    width: 15%;
+    margin: 270px 0 0 0;
+    padding-left: 10px;
+    
+   
+}
+
+.org p{
+    background-color: black;
+    color:  white;
+    text-align: center;
+    padding: 1em;
+
+}
+
+ul.destinos{
+    list-style: none;
+}
+
+ul.destinos li:not(:last-child){
+    border-bottom: 1px solid white;
+}
+
+.treb{
+    padding-top: 1em;
+}
+
+.planols{
+   
+    width: 100%;
+    padding: 2em;
+    text-align: center;
+      
+}
+
+.planols h3{
+    padding: 1em;
+}
+
+.d3{
+    padding: 10px 90px 0px 0px;
+}
+
+span.bold{
+    font-weight: bold;
+}
+
+.titav{
+    text-align: center;
+    padding-top: 30px;
+}
+
+ul.treb p{
+    line-height: 1.5;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
+.mg0{
+    margin-bottom: -9px;
+}
+
+ul.prevec{
+    list-style: upper-alpha;
+    padding: 1em;
+}
+
+ul.prevec p{
+    padding: 10px;
+}
+
+p.pad{
+    padding-bottom: 20px;
+}
+
+.video{
+    text-align: center;
+}

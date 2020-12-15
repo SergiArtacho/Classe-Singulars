@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(180, 180, 228);
+    color: white;
+}
+
+h1{
+    padding: 100px 50px 50px 50px;
+    font-size: 50px;
+}
+
+.cont{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+nav{
+    width: 15%;
+    display: flex;
+    flex-direction: wrap;
+    flex-direction: column;
+    background-color: rgb(217, 217, 233);
+    color: white;
+    text-align: center;
+}
+
+ul.men{
+    list-style: none;
+}
+
+ul.men a{
+    padding: 1em;
+    text-decoration: none;
+    line-height: 2.5;
+    color: white;
+    font-size: large;
+}
+
+nav li:not(:last-child){
+    border-bottom: 1px solid white;
+}
+
+div.bar{
+    width: 25%;
+    display: flex;
+    flex-direction: wrap;
+    flex-direction: column;
+    background-color: rgb(217, 217, 233);
+
+   
+}
+
+.bar p{
+    padding: 1em;
+}
+
+.bar h3{
+    padding: 1em;
+
+}
+
+div.cos{
+    width: 60%;
+    justify-content: center;
+}
+
+div.cos h2{
+    text-align: center;
+    font-style: oblique;
+    padding: 1em;
+}
+
+div.blc1 img{
+    float: left;
+    padding: 1em;
+
+}
+
+div.blc1 p{
+    padding: 1em;
+    text-align: justify;
+}
+
+
+
+div.img2 img{
+    float: right;
+    padding: 1em;
+}
+
+div.img2 p{
+    padding: 1em;
+    text-align: justify;
+}
+
+footer{
+    padding: 3em;
+    background-color: rgb(180, 180, 228);
+    color: white;
+    text-align: center;
+}
+
+@media only screen and (max-width: 750px){
+    
+    header{
+        justify-content: center;
+    }
+    h1{
+        padding: 100px 0px 0px 0px;
+    }
+
+    header img{
+        z-index: 1;
+        margin: 0px 0px 0px -167px;
+    }
+
+    .cont{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav{
+        width: 100%;
+        display: flex;
+        flex-direction: wrap;
+        flex-direction: column;
+        background-color: rgb(217, 217, 233);
+        color: white;
+        text-align: center;
+    }
+
+    div.bar{
+        width: 100%;
+        display: flex;
+        flex-direction: wrap;
+        flex-direction: row;
+        background-color: rgb(217, 217, 233);
+    
+       
+    }
+
+    div.bar2{
+        width: 60%;
+        padding: 1em;
+    }
+
+    div.bar1{
+        width: 40%;
+        padding: 1em;
+    }
+
+    div.cos{
+        width: 100%;
+    }
+
+    div.blc1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    div.blc1{
+        text-align: justify;
+        padding: 1em;
+    }
+
+
+    div.img2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    div.img2 {
+        text-align: justify;
+        padding: 1em;
+    }
+
+   
+    
+
+
+
+
+
+}
+

@@ -139,3 +139,44 @@ a.fb{
 a.twitter{
     color: aqua;
 }
+
+.trans{
+    width: 100px;
+  height: 100px;
+  background: red;
+  transition: 2s;
+}
+
+.trans:hover {
+    width: 300px;
+  }
+
+
+  .transtext p:hover{
+      font-size: 40px;
+      transition: 2s;
+ 
+  }
+
+  .coltrans{
+    width: 100px;
+  height: 100px;
+  background: red;
+  transition: 2s;
+}
+
+.coltrans:hover{
+    background: cyan;
+}
+
+.desp{
+    width: 100px;
+  height: 100px;
+  background:black;
+  transition: 2s;
+  margin: auto;
+}
+
+.desp:hover{
+    opacity: 0;
+}

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+
+
+        .first{
+            background-color: red;
+            width: 1024px;
+            height: 100px;
+            align-items: center;
+            margin: auto;
+            border-radius: 30px;
+            box-shadow: 5px 10px green;
+        }
+
+        .first h1{
+            text-align: center;
+            text-shadow: 1px 1px white;
+        }
+
+        .first:hover{
+            background-color: blue;
+        }
+
+        .first h1:hover{
+            text-shadow: 3px 3px white;
+        }
+
+        .colum{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            padding: 1em;
+            width: 1400px;
+        }
+
+     .colum1{
+         background-color: aliceblue;
+         width: 300px;
+         height: 1000px;
+     }   
+
+     .colum2{
+         background-color: red;
+         width: 300px;
+         height: 400px;
+         
+         background-repeat: no-repeat;
+         background-size: cover;
+     }   
+
+     .colum3{
+         background-color:blue;
+         width: 300px;
+         height: 400px;
+     }   
+
+
+     header{
+         display: flex;
+         flex-wrap: wrap;
+         flex-direction: row;
+         justify-content: space-between;
+     }
+
+    div.bf {
+        background-color: black;
+        color: white;
+        
+    } 
+
+    .dispim img{
+        opacity: 0;
+        
+    }
+
+    .dispim img:hover{
+        opacity: 1;
+    }
+    
+
+    </style>
+</head>
+<body>
+
+
+    <header>
+        <div class="bf">
+        <p>barra fija</p>
+        </div>
+        <div class="dispim">
+            <img src="./Unknown.png" alt=""
+            width="50px"
+            height="50px">
+        </div>
+
+    </header>
+
+    
+
+    <div class="first">
+        <h1>Main tittle</h1>
+    </div>
+
+
+    <div class="colum">
+        <div class="colum1">
+            <ul>
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                
+                
+            </ul>
+
+        </div>
+        <div class="colum2">
+            <a href="https://www.google.es/?hl=ca"><img src="./Unknown.png" alt=""
+            width="300px" height="400px"></a>
+
+        </div>
+        <div class="colum3">
+            <table style="width:100%">
+                <tr>
+                  <th>1</th>
+                  <th>2</th> 
+                  <th>3</th>
+                </tr>
+                <tr>
+                  <td><img src="./Unknown.png" alt=""
+                    width="50px" height="50px"></td>
+                  <td><img src="./Unknown.png" alt=""
+                    width="50px" height="50px"></td> 
+                  <td><img src="./Unknown.png" alt=""
+                    width="50px" height="50px"></td>
+                </tr>
+                <tr>
+                  <td><img src="./Unknown.png" alt=""
+                    width="50px" height="50px"></td>
+                  <td><img src="./Unknown.png" alt=""
+                    width="50px" height="50px"></td> 
+                  <td><img src="./Unknown.png" alt=""
+                    width="50px" height="50px"></td>
+                </tr>
+              </table>
+
+
+        </div>
+    </div>
+
+    
+</body>
+</html>

@@ -1,0 +1,151 @@
+
+*{margin: 0;
+padding: 0;}
+
+
+header{
+    background-color: rgb(212, 212, 149);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header h1{
+    margin: 50px 0px 0px 0px;
+   
+}
+
+header img{
+
+    background-color: rgb(212, 212, 149);
+    
+}
+
+
+
+nav{
+    background-color: rgba(238, 217, 68, 0.6);
+}
+
+.menu a{
+    text-decoration: none;
+    
+}
+
+.txt1{
+    padding: 1em;
+}
+
+.cont{
+    padding: 1em;
+}
+
+
+footer{
+    background-color: rgb(212, 212, 149);
+    color: white;
+    text-align: center;
+    height: 100px;
+}
+
+footer  p{
+    padding-top: 20px;
+}
+header h1{
+    text-align: end;
+    padding: 1em;
+   }
+
+   nav{
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+nav li:not(:last-child){
+    border-bottom: 1px solid black;
+}
+
+.cont{
+    text-align: center;
+    padding: 1em;
+}
+.cont img{
+    padding: 1em;
+}
+
+.txt1{
+    padding: 1em;
+}
+
+
+.txt2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 1em;
+}
+
+
+@media only screen and (min-width: 750px){
+
+    header{
+        justify-content: center;
+    }
+
+    header h1{
+        
+        margin-top: 32px;
+        font-size: 50px;
+        margin-left: -92px;
+        z-index: 1;
+    }
+
+    .menu{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        list-style: none;
+        justify-content: center;
+         margin: auto;
+    }
+    .menu a{
+        text-decoration: none;
+        text-align: center;
+        
+    }
+
+    .menu p{
+        padding: 1em;
+    }
+    
+    nav li:not(:last-child){
+        border-right: 1px solid black;
+        border-bottom: none;
+    }
+
+    .txt2{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+
+    .blocti{
+        width: 40%;
+        text-align: justify;
+        padding: 1em;
+    }
+
+    .blocti img{
+        display: block;
+        margin: auto;
+    }
+   
+    .cont{
+       text-align: center;
+    }
+
+}

@@ -1,0 +1,195 @@
+
+
+<script>
+    
+    a=3;
+    b=4;
+    
+    c=a;  
+    a=b;
+    b=c;
+    
+    
+    
+    
+    console.log(a);
+    console.log(b);
+    
+    temp= 20;
+    
+    console.log("La temperatura es de" + temp + "ºF")
+    
+    c= temp*9/5+32;
+    
+    
+    console.log("La temperatura en Farenheint es de " + c + "ºF")
+    
+    dies = 3;
+    segons= dies*86400;
+    // el teu codi aquí
+    console.log("Hi ha " + segons + " segons en " + dies + " dies");
+    
+    euros = 7;
+    dolares= euros*1.21;
+    dolares=dolares.toFixed([2])
+   
+    // el teu codi aquí
+    console.log(euros + " euros són " + dolares + " dòlars");
+    
+    precio = 100;
+    con_iva= precio*1.21;
+    // el teu codi aquí
+    console.log("El que costa " + precio + " euros sense IVA, costa " + con_iva + " amb IVA (del 21%)");
+
+    const alto = 4;
+        const ancho = 8;
+        per= (alto+ancho)*2
+        area=(ancho*alto)
+        // tu código aquí
+
+        console.log("un rectángulo de alto " + alto + " y ancho " + ancho + " tiene un perímetro de " + per + " y un área de " + area);
+        
+        const grados_f2 = 451;
+        grados_c2= (grados_f2-32)*5/9;
+
+        // tu código aquí
+        console.log(grados_f2 + " grados Fahrenheit son " + grados_c2.toFixed(1) + " grados Celsius") // toFixed() fija los decimales
+
+        nom= " Oscar "
+        mida= " 5 unitats "
+        material=" Sushi "
+        Comentari= " wasabi "
+
+    
+    console.log("El"+ nom + "ha demanat una caixa de" + material + "de" + mida + "amb"+ Comentari)
+
+    console.log(`${nom} ha demanat una caixa de ${material} de ${mida} amb ${Comentari}`)
+
+    const radi = 3;
+        const PI = 3.14159265;
+        area= PI*radi**2
+        console.log("L'àrea d'un cercle de radi " + radi + " és " + area);
+
+        const chuches = 17;
+        const alumnos = 5;
+        console.log("Si somos " + alumnos + " alumons y repartimos " + chuches + " chuches, el Omar se come " +  (chuches%alumnos)+ "chuches")
+
+
+        console.log('------------------------------------------------------------------')
+
+        //-----------------------------------------------------------------------------------------------------------------------------------
+
+        // conficional if
+        
+        var conidció= true; //Variable boleana amb valor true (1)
+
+        if (true) {console.log(" La condició s'ha acomplert")
+            
+        } else{ console.log(" La condició no s'ha acompler") }
+
+        var edat= 14;
+
+
+        if (edat < 7) {console.log(" Pots jugar a jos amb pegi AP");
+            
+        } else if (edat < 13 ){ console.log(" Pots jugar a jocs amb PEGI 7"); 
+        } else if (edat < 18) { console.log ("Pots jugar a jocs amb PEGI 13");
+    }   else { console.log ("Pots jugar a jocs amb PEGI 18");
+
+}
+
+    var nota= 7.2;
+    if (nota < 5){console.log ("Suspens");
+} else if (nota < 6){ console.log ("Aprovat")
+}else if (nota < 7){ console.log ("Bé")
+}else if (nota < 9){ console.log ("Notable")
+} else if (nota => 9){ console.log("Excel·lent")}
+
+
+
+
+console.log('------------------------------------------------------------------')
+
+var num= 5; //integrer
+
+if (num > 0)console.log("Positiu"); 
+else if(num <0) console.log("Negatiu");
+else if(num=0) console.log("El número no tiene signo definido");
+
+if (num% 2 == 0) console.log("Parell");
+else console.log("Imparell");
+
+if (num % 5 == 0)console.log("Mulitple de 5")
+else console.log("No és mulitple de 5")
+
+if (num % 10 == 0)console.log("Mulitple de 10");
+else console.log("No es mulitple de 10");
+
+if (num > 100 ) console.log("Major  que 100");  
+else if (num < 100 ) console.log("Menor que 100");
+else if(num = 100) console.log("És 100"); 
+
+console.log('------------------------------------------------------------------')
+
+
+var nota= prompt("Quina és la teva nota?")
+
+var nota_n=parseFloat(nota);
+
+console.log([nota, nota_n]);
+
+if (isNaN(nota_n) || nota_n >10 || nota_n <0 ) {
+    console.log (nota+ "no és una nota vàlida")
+} else{
+    if (nota_n > 5 & nota_n !=10){
+        console.log("Aprobado");
+    } else if (nota_n==10){
+        console.log("Debes de ser Omar");
+    } else{
+        console.log("Suspenso")
+    }
+} 
+
+console.log('------------------------------------------------------------------')
+
+
+     //---------------------------------------------------------------------------------------
+
+    // Colors a la consola
+
+    console.log("%cAixó és un missatge blau", "color:blue");    
+    console.log("%cAixó és un missatge gran", "font-family:Arial; font-size:2em;, font-style:italic;")
+    console.log("%cAixó és un missatge amb fons", "background-color:red; color: yellow; padding:2em;")
+
+
+        //--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+        // condicional switch
+
+
+        //--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+        //-----------------------------------------------------------------------------------------------------------------------------------
+
+        // bucle for
+
+
+
+
+        //--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+        // bucle while
+
+
+        //--------------------------------------------------------------------------------------------------------------------------------------------
+
+    
+        // funcions "antigues", funcions "arrow"
+
+
+</script>

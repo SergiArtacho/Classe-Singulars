@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilos</title>
+    <style>
+
+
+
+.gir{
+    width: 300px;
+    height: 200px;
+
+}
+
+
+
+.gir:hover {-webkit-transform: rotateY(180deg);
+-webkit-transform-style: preserve-3d;
+transform: rotateY(180deg);
+transform-style: preserve-3d;}
+
+
+.rot{
+
+    width: 300px;
+    height: 200px;
+}
+
+
+.rot:hover{
+transform: translateZ(1000px);
+transform: rotateZ(360deg);
+transition: 1s;
+position: relative;
+
+
+
+}
+
+.desp img:hover{
+
+    margin-left: 30px;
+
+}
+
+.form{
+    width: 200px;
+    background-color: red;
+    height: 100px;
+}
+
+.form:hover{
+    width: 600px;
+    height: 100px;
+    transition: 3s;
+}
+
+.col{
+    width: 200px;
+    background-color: red
+}
+
+.col:hover{
+    transition: 3s;
+    background-color: blue;
+    height: 100px;
+}
+
+.mag{
+    width: 600px;
+    height: 100px;
+    background-color: black;
+}
+
+.mag:hover{
+    opacity: 0;
+    transition: 3s;
+  
+}
+
+.text{
+    font-size: 20px;
+}
+
+.text:hover{
+    font-size: 50px;
+    transition: 2s;
+}
+
+.omar{
+    border: 1px solid;
+}
+
+
+.omar{
+    
+    width: 200px;
+    height: 200px;
+    background-image: url(../omar.jpg);
+    background-color: red;
+    position: absolute;
+    overflow: hidden;
+   
+}
+
+.reb{
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    animation: bounce 1s infinite alternate;
+    
+  margin: auto;
+}
+
+.reb:hover{
+    
+    
+}
+
+
+@keyframes bounce {
+  0%{
+    transform: translateY(0px) ;
+    width: 200px;
+  }
+
+  20%{
+    transform: translateY(100px) ;
+    width: 200px;
+  }
+
+  40%{
+    transform: translateY(200px) ;
+    width: 200px;
+  }
+
+  60%{
+    transform: translateY(300px) ;
+    width: 200px;
+  }
+  80%{
+    transform: translateY(400px) ;
+    width: 200px;
+  }
+  100%{
+    transform: translateY(500px) ;
+    width: 300px;
+  }
+
+}
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+
+ 
+
+
+<div class="reb"></div>
+    
+
+    <div class="gir">
+
+        <img src="../Directa_logo.png" alt="">
+    </div>
+
+
+    <div class="rot">
+
+        <img src="../Directa_logo.png" alt="">
+    </div>
+
+    <div class="desp">
+
+        <img src="../Directa_logo.png" alt="">
+    </div> 
+
+
+   
+   <div class="form">
+       <p>Hola</p>
+   </div> 
+
+<div class="col">
+    <p>Hola</p>
+
+</div>
+
+<div class="mag"></div>
+
+
+
+<div class="text">
+    Hola
+</div>
+
+
+
+
+
+
+    
+</body>
+</html>
