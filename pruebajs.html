@@ -141,7 +141,7 @@ console.log([nota, nota_n]);
 if (isNaN(nota_n) || nota_n >10 || nota_n <0 ) {
     console.log (nota+ "no és una nota vàlida")
 } else{
-    if (nota_n > 5 & nota_n !=10){
+    if (nota_n => 5 & nota_n !=10){
         console.log("Aprobado");
     } else if (nota_n==10){
         console.log("Debes de ser Omar");
@@ -165,10 +165,149 @@ console.log('------------------------------------------------------------------'
         //--------------------------------------------------------------------------------------------------------------------------------------------
 
 
+
+        console.log('------------------------------------------------------------------')
+
+
         // condicional switch
 
+        var color= "vermell";
 
+        switch (color){
+            case "vermell":
+            console.log("el foc és vermelll");
+            break;
+
+
+            case "blau":
+            console.log("el celés blau");
+            break;
+
+            case 42:
+            console.log ("the anwer to univers, life and everything")
+            break;
+
+
+        }
+
+        // Break per evitar que et digui les tres condicions
         //--------------------------------------------------------------------------------------------------------------------------------------------
+
+        console.log('------------------------------------------------------------------')
+
+        var data= new Date() //Això és un objecte
+        var data2= Date()//Aixó és una cadena de caràcters
+
+        console.log(data) 
+
+        
+
+        var dia= data.getDay() // Aizò agafa el dia de la setmana de l'objecte data (que és una instància del objecte Date)
+      
+        console.log(dia)
+
+       switch (dia){
+           case 1:
+           console.log("Dilluns");
+           break;
+
+           case 2:
+           console.log("Dimarts");
+           break;
+
+           case 3:
+           console.log("Dimecres");
+           break;
+
+           case 4:
+           console.log("Dijous");
+           break;
+           
+           case 5:
+           console.log("Divendres");
+           break;
+
+           case 6:
+           console.log("Dissabte");
+           break;
+           
+           case 0:
+           console.log("Diumenge");
+           break;
+
+           default:
+
+           
+       }
+        
+
+       console.log('------------------------------------------------------------------')
+        
+        var data= new Date()
+
+     var dia_set= numToDay(dia)
+
+     console.log(`Avui és ${dia}`)
+
+       function numToDay (num) {
+
+           let dia;
+
+        switch (num){
+           case 1:
+           dia= "Dilluns";
+           break;
+
+           case 2:
+          dia= "Dimarts";
+           break;
+
+           case 3:
+           dia= "Dimecres";
+           break;
+
+           case 4:
+           dia="Dijous";
+           break;
+           
+           case 5:
+           dia="Divendres";
+           break;
+
+           case 6:
+           dia="Dissabte";
+           break;
+           
+           case 0:
+           dia="Diumenge";
+           break;
+
+           default:
+
+           
+       }
+
+       return dia;
+           
+       }
+
+
+     console.log(`Avui és ${dia_set}`)
+
+
+     diaSetmana()
+
+     function diaSetmana() {
+         let data= new Date();
+         let dia= data.getDay();
+         let dia_set= numToDay(dia);
+
+         console.log(`Avui és ${dia_set} (des de una funció)`)
+
+         
+     }
+
+     console.log("El meu cumple és el " + numToDay(3))
 
 
 
