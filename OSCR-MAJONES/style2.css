@@ -268,20 +268,26 @@ ul.readmor li:hover{
               padding: 1em;
           }  
 
-          footer {
+          .footer {
             display: flex;
             flex-wrap: wrap;
             flex-direction: column;
             width: 100%;
-            justify-content: space-around;
+            justify-content: start;
             padding: 2em;
             background-color: #262826;
-            color: white;}
-
-            .foot1{
-                width: 100%;
-                
-            }
+            color: white;
+            height: 500px;
+        }
+                    .foot1{
+                        width: 100%;
+                        padding: 0;
+                        
+                    }
+        
+                    .foot2{    width: 100%;
+                    }
+                        
 
 
        

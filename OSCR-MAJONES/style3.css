@@ -81,7 +81,7 @@ ul.menu a:hover{
 
 .cont p{
     FONT-WEIGHT: 300;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 
@@ -218,7 +218,7 @@ form{
 
     body{
         font-family: 'Heebo', sans-serif;
-        margin: 1em;
+  
         justify-content: center;
         background-color: rgb(101,129,166);
     
@@ -279,11 +279,13 @@ form{
            padding: 0;
         }
 
+       
+
         .cont img{
             text-align: center;
-            margin: auto;
             padding-bottom: 2em;
             padding-top: 2em;
+           width: 100%;
         }
 
         h3, h4, h5{
@@ -295,19 +297,25 @@ form{
             font-size: 14px;
         }
 
-        footer {
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: column;
-            width: 100%;
-            justify-content: space-around;
-            padding: 2em;
-            background-color: #262826;
-            color: white;}
-
+        .footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    justify-content: start;
+    padding: 2em;
+    background-color: #262826;
+    color: white;
+    height: 500px;
+}
             .foot1{
                 width: 100%;
+                padding: 0;
                 
+            }
+
+            .foot2{
+                width: 100%;
             }
        
      

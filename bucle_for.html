@@ -1,0 +1,113 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+        for (let i = 0; i < 5; i++) {
+            console.log("Hola repetit", i)
+            
+        }
+
+        // Exercici
+
+        for (let i = 0; i < 10; i++) {
+            
+            // aquí el teu codi (ha de mostrar a la consola la taula de multiplicar del 3)
+
+            let num= i+1;
+            console.log(`3 multiplicat per ${num} és ${3*num}`)
+            
+        }
+
+        console.log("--------------------------------------------------------------------")
+
+        // bucle del 0 al 100 amb alert() al 50 i al 100
+
+        for (let index = 0; index <= 100; index++) {
+            console.log(index)
+            if(index== 50) console.log("%cHem arribat als 50!", "color:red; font-weight:bold");
+            else if(index==100) console.log("%cHem arribat als 100!", "color:red; font-weight:bold");
+            
+            
+        }
+
+        console.log("--------------------------------------------------------------------")
+
+        //mostra  els numeros parells del 0 al 20
+       
+        for (let index = 0; index <= 20; index++) {
+            if( index%2== 0)
+            console.log(index)
+            
+        }
+
+        console.log("--------------------------------------------------------------------")
+
+        
+        for (let index = 0; index <= 20; index+=2) {
+            console.log(index)
+            
+        }
+
+        // mateixa manera més senzilla
+
+
+        console.log("--------------------------------------------------------------------")
+
+        // recorre números muestra el seleccionado (con un prompt) de manera diferente (con CSS) en la consola 
+
+        var num= parseInt(prompt("Escull un número del 1 al 20"));
+      
+        for (let i = 1; i <=20; i++) {
+            if (i== num) console.log(`%c${i}`, "color:red");
+            else console.log(i);
+                
+            
+            
+        }
+
+        console.log("--------------------------------------------------------------------")
+
+        //taules de mutiplicar del 1 al 9
+
+        for (let i = 1; i <=9; i++) {                                                           // i és l'ndex que indica en quina taula estem
+            for (let j = 1; j <=10; j++) {                                                      // j és l'index que indica en quina multiplicació
+                console.log(`${i} multipiclat per ${j} és ${j*i}`);                              
+            }
+
+            console.log("--------------------------------------------------------------------")
+            
+        }
+    
+        console.log("--------------------------------------------------------------------")
+
+
+        // fer que el bucle pari a un numero
+
+    var num2= parseInt(prompt("Escull un número de l'1 al 20"));
+    
+       for (let i = 1; i <= 20; i++) {
+           if (i== num2) {
+               console.log(i+"(Bucle aturat)");
+               break;
+               
+           }else {
+               console.log(i)
+           }
+           
+       }
+
+
+
+    </script>
+    
+</body>
+</html>

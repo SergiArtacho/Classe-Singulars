@@ -1,0 +1,154 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        
+        var any= "1990";
+        console.log((1990).toString()=== any); //.toString() conveteix números en strings
+        
+        var num= "12.765"
+        
+        folatNum= parseFloat(num);  //converteix les strings en un numero decimal
+        
+        console.log(folatNum);
+        
+        intNum= parseInt(num);     // converteix les strings en un número sencer
+        
+        console.log(intNum);
+        
+        roundNum= folatNum.toFixed(0);   // arrodoneix el número decimal
+        
+        console.log(roundNum)
+        
+        
+        //---------------------------------------------------------------------------------
+        
+        console.log("--------------------------------------------------------------------------")
+        
+        var bigNum= 2398462193846235;
+        
+        console.log(bigNum.toExponential(3)); // transforma a notació científica
+        
+        var smallNum= 0.0000000234791;
+        
+        console.log(smallNum.toExponential(3))  // Transforma a notació cientifica
+        
+        console.log(new Date().getTime()); //retorna els milisegons que han passat des del 1/1/1970.
+        
+        console.log(Math.PI); // la constant PI de l'objecte predefinit Math
+        
+        // Numeros aleatoris
+        
+        console.log(Math.random()) // Números aleatoris entre 0 i 1
+        
+        console.log(Math.ceil(Math.random()*20)) //Un número aleatori entre 1 i 20 
+        
+        console.log(parseInt(Math.random()*20+1)) // Un número aleatori entre 1 i 20( métode tradicional)
+        
+        
+        // Exercici generador d'aniversari
+        //Pseudocodi:
+        //Escollir any (1900-2020)
+        //El dia no el podem escollir perque ens depen del mes
+        // Escollim el mes (1-12)
+        // Escollim dia: 3 opcions de mes, que sigui el de 30 (4 mesos),31 (7 mesos) i Febrer (amb dos opcions, traspas o no traspas)
+        // Mirem si es febrer, si es visiesto o no
+        // després si es 30
+        // després si es 31
+        // després console.log()
+        
+        console.log("--------------------------------------------------------------------------")
+        
+        var mesos30 = [ 4, 6, 9, 11 ]
+        
+        var year = Math.floor( Math.random() * ( 2020 - 1907 + 1 ) + 1907 );
+        
+        var month = parseInt( Math.random() * 12 + 1 );
+        
+        if ( ( ( year % 4 == 0 ) && ( year % 100 != 0 ) ) || ( year % 400 == 0 ) )
+        {
+            if ( month == 2 ) var day = parseInt( Math.random() * 29 + 1 );
+            if ( mesos30.includes( month ) ) var day = parseInt( Math.random() * 30 + 1 );
+            else var day = parseInt( Math.random() * 31 + 1 );
+        }
+        
+        else
+        {
+            if ( month == 2 ) var day = parseInt( Math.random() * 28 + 1 );
+            if ( mesos30.includes( month ) ) var day = parseInt( Math.random() * 30 + 1 );
+            else var day = parseInt( Math.random() * 31 + 1 );
+        }
+         console.log( `El teu aniversari és el día ${ day } del mes ${ month } del any ${ year }` );
+        
+        
+        
+        function random(min, max) {
+            return min+parseInt(Math.random()+(max-min+1))
+            
+        }
+
+
+        
+        console.log("--------------------------------------------------------------------------")
+        
+        
+        // Metode Omar
+
+        var cumple= {"dia": 0,
+                    "any": 0,
+                    "mes":0 }
+
+        var trenta=[4,6,9,11];
+    
+
+        cumple.any=random(1990,2000); //genera l'any
+
+        cumple.mes= random (1,12);   // genera el mes
+
+        traspas= (cumple.any %400==0)|| (cumple.any%4==0 && cumole.any%100!=0) 
+
+        if (cumple.mes==2) {
+            if (traspas) {
+                cumple.dia= random(1,29)
+                
+            }
+            else(
+                cumple.dia= random (1,28)
+            )
+            
+        }
+
+       
+        
+        
+        
+        console.log("--------------------------------------------------------------------------")
+        
+        
+        
+        
+        
+        
+        
+        
+        console.log("--------------------------------------------------------------------------")
+        
+        
+        
+        
+        
+        
+    </script>
+    
+    
+    
+</body>
+</html>

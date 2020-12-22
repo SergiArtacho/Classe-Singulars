@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        function devolver() {
+            return 10;
+            
+        }
+
+        const devolver2 = () =>10;                                          // Aixó són funcions equivalents Sense parametres
+
+        const devolver3 = _ => 10;
+
+        console.log([devolver(), devolver2(), devolver3()]);
+
+
+
+        function mult(a,b) {
+            return a*b;
+            
+        }
+
+        const mult2=(a,b) => a*b;
+                                                                                    //Aixó són funcions equivalenrs amb parametres
+        const mult3 =(a,b) =>{
+            return a*b;
+        }
+
+        console.log({"funció antiga": mult(3,4), "funció arrow amb ()": mult2(3,4), "Fució amb_": mult3(3,4)});
+
+
+
+                  // eleva al cub
+
+
+        const cubo=(a) => {
+            return a**3;
+        }
+
+        console.log(cubo(3))
+
+        const velocidad =(a) =>  {           // transforma km/h en m/s
+            return a/3.6;
+        }
+
+       console.log(velocidad(300))          // area d'un triangle
+        
+       
+       const triangle = (b,a) => {
+           return b*a/2;
+       }
+
+       console.log(triangle (5,18))             // calcula l'area i el perímetre d'un cercle (el valor de pi es pot obtenir amb Math.PI)
+ 
+        const circulo= (radi) => {
+            console.log(`Un cercle de radi ${radi} té un perimetre de ${(2*Math.PI*radi).toFixed(1)} i un àrea de de ${(Math.PI*radi**2).toFixed(1)}`)
+        }
+
+        circulo(4);
+
+       
+
+
+
+    </script>
+
+
+</body>
+</html>
