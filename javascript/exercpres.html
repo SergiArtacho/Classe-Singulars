@@ -1,0 +1,45 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+
+// recojo lista de prompt
+
+var aliments= prompt("Que alimento quieres comprar")
+
+//separo palabras
+
+var aliments= aliments.split(" ")
+
+console.log(aliments)
+
+aliments.sort();
+
+// las meto en un array
+
+//las muestro como listas
+
+console.log("Tienes que comprar:")
+
+for (aliments of aliments) {
+    
+console.log(" - "+ aliments)
+}
+
+
+
+
+
+    </script>
+    
+</body>
+</html>

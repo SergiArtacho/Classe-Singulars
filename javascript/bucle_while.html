@@ -93,6 +93,78 @@ while (i<=20) {
 console.log("--------------------------------------------------------------------")
 
 
+// calcular potències (sense usar ** ni Math.pow())
+
+var a = 3;
+var b = 5;
+
+        console.log(`${a} elevat a ${b} és ${potencia(a,b)}`);
+
+        // definiu aquí la funció
+    
+    function potencia(a,b) {
+        return a**b
+        
+    }
+
+    function poten(base,exp) {
+        var cont= 0;
+        var res= 1; //resultat s'inicia a 1 perque qualsevol número elevat a 0 és 1
+
+    while (cont < exp) {
+        res*=base;
+        cont++;
+
+
+    }
+
+    return res;
+    }
+
+    console.log(`${a} elevat a ${b} és ${poten(a,b)}`);
+
+        
+
+
+// calcular factorial (N!)
+
+var c = 7;
+
+console.log(`${c} factorial (${c}!) és ${factorial(c)}`)
+
+// definiu aquí la funció
+
+function factorial(c) {
+    let total=1;
+    for (i=1; i<=c; i++){
+        total=total*i;
+    }
+    return total
+}
+
+i=1;
+total=1;
+total=total*i;
+
+
+function fancy(n) {
+    var res= 1;
+    var cont=1;
+    var curr=n;
+
+    while( cont < n){
+    res*=curr;
+    curr--;
+    cont++;
+}
+
+    return res
+    
+}
+
+console.log(`${c} factorial (${c}!) és ${fancy(c)}`)
+
+
 
 
 

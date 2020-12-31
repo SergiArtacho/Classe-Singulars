@@ -35,6 +35,25 @@
         <li><a href="#Form"> Formularis</a></li>
         <li><a href="#Trans"> Transicions</a></li>
         <li><a href="#Mediaq"> Mediaqueries</a></li>
+        <li><a href="#Boot"> Bootstrap</a></li>
+        <li><a href="#java">JAVASCRIPT</a></li>
+        <ol>
+            <li><a href="#Que">Per què serveix?</a></li>
+            <li><a href="#Arit">Operacions Aritmetiques</a></li>
+            <li><a href="#condi">Condicionals: if...else</a></li>
+            <li><a href="#Func">Funcions</a></li>
+            <li><a href="#let">Let</a></li>
+            <li><a href="#Str">String</a></li>
+            <li><a href="#Num">Number</a></li>
+            <li><a href="#for">For</a></li>
+            <li><a href="#while">While</a></li>
+            <li><a href="#Array">Array</a></li>
+            <li><a href="#forof">For...of</a></li>
+            <li><a href="#Deb">Debuguer</a></li>
+
+
+
+        </ol>
 
 
         <li><a href="#workclass">Treballs a Classe</a></li>
@@ -814,6 +833,416 @@ width="400" height="400"></iframe>
 
         </pre>
 
+        <h2 id="Boot">Bootstrap</h2>
+
+        <p>Bootstrap és un framework CSS i Javascript dissenyat per a la creació d'interfícies netes i amb un disseny responsive. A més, ofereix un ampli ventall d'eines i funcions, de manera que els usuaris poden crear pràcticament qualsevol tipus de lloc web fent ús dels mateixos.</p>
+
+        <p>Es basa en una estructura dividida en un total de 12 columnes que els desenvolupadors poden gestionar en funció de les seves necessitats i preferències, en funció de quatre mides de dispositiu.</p>
+
+
+        <p>El responsive de Bootstrap posa el disseny per a Mobile First. No tots els llocs web té aquesta prioritat.</p>
+
+        <p>El principal avantatge és la gran documentació, plantilles i desenvolupaments de components que podem utilitzar gratis. </p>
+
+        <p>Exemple de Bootstrap:</p>
+
+        <pre class="code">
+
+                &lt;!DOCTYPE html&gt;
+                &lt;html lang=&quot;en&quot;&gt;
+                &lt;head&gt;
+                &lt;title&gt;Bootstrap Example&lt;/title&gt;
+                &lt;meta charset=&quot;utf-8&quot;&gt;
+                &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+                &lt;link rel=&quot;stylesheet&quot; href=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css&quot;&gt;
+                &lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js&quot;&gt;&lt;/script&gt;
+                &lt;script src=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+
+                &lt;div class=&quot;jumbotron text-center&quot;&gt;
+                &lt;h1&gt;My First Bootstrap Page&lt;/h1&gt;
+                &lt;p&gt;Resize this responsive page to see the effect!&lt;/p&gt; 
+                &lt;/div&gt;
+
+
+        </pre>
+
+        <h1 id="java">JAVASCRIPT</h1>
+
+        <p>Javascript és l'únic llenguatge de programació que funciona en els navegadors de forma nativa (llenguatge interpretat sense necessitat de compilació). Per tant s'utilitza com a complement d'HTML i CSS per crear pàgines webs.</p>
+
+        <p>Javascript és el llenguatge de programació encarregat de dotar de major interactivitat i dinamisme a les pàgines web. Quan estigui habilitat s'executa al navegador, no necessita d'un compilador. El navegador llegeix directament el codi, sense necessitat de tercers. Per tant, se li reconeix com un dels tres llenguatges nadius del web al costat de HTML (contingut i la seva estructura) i a CSS (disseny de l'contingut i la seva estructura). Compte, no confunidr Javascript amb Java.</p>
+
+        <h2 id="Que">Per què serveix?</h2>
+
+        <p>Amb aquest llenguatge de programació de la banda de el client (no al servidor) podem crear efectes i animacions sense cap interacció, o responent a esdeveniments causats pel propi usuari tal com els botons premuts i modificacions de DOM (document object model). Per tant, res té a veure amb el llenguatge de programació Java, ja que la seva principal funció és ajudar a crear pàgines webs dinàmiques.</p>
+
+        <p> El codi de programació de JavaScript s'executa en els navegadors, ja siguin d'escriptori o mòbils, ja siguin Android o Iphone. Serveix per exactament el mateix, és igual al tipus de dispositiu que s'executi el navegador. </p>
+
+        <p>Javascript és capaç de detectar errors en formularis, de crear bonics sliders que s'adaptin a qualsevol pantalla, de fer càlculs matemàtics de forma eficient, de modificar elements d'una pàgina web de manera senzilla. Però també Javascript és l'encarregat de que existeixin eines com Google Analytics, Google Tag Manager, Facebook Pixel i tantes altres, que són clars exemples de JavaScript. </p>
+
+        <h2 id="Arit"> Operacions Aritmetiques </h2>
+
+        <p>Els operadors aritmètics prenen valors numèrics (poden ser tant literals com ser variables) com a operands seus i retornen un valor numèric únic. Els operadors aritmètics estàndards són la suma (+), la resta (-), la multiplicació (*), i la divisió (/).</p>
+
+        <p>També trobem els següents:</p>
+
+        <h3>Mòdul (%)</h3>
+        <p>L'operador mòdul retorna el mòdul del primer operand amb el segon, això és, var1 modulo var2 en la sentència prèvia, on var1 i var2 són variables. La funció mòdul és la resta entera de dividir var1 per var2</p>
+
+        <pre class="code">
+
+        12 % 5 // 2
+        -1 % 2 // -1
+
+        </pre>
+
+        <h3>Increment (++)</h3>
+
+        <p>L'operador increment incrementa (afegeix un) al seu operand i retorna un valor.</p>
+
+        <p>Emprat com a sufix, és a dir, amb l'operador després de l'operand (per exemple:  x++), retorna el valor de l'operand abans d'incrementar-lo.</p>
+
+        <p>Emprat com a prefix, és a dir, amb l'operador precedint l'operand (per exemple: ++x), retorna el valor de l'operand després d'incrementar-lo.</p>
+
+        <pre class="code">
+
+        // Sufix
+        var x = 3;
+        y = x++; // y = 3, x = 4
+
+        // Prefix
+        var a = 2;
+        b = ++a; // a = 3, b = 3
+
+        </pre>
+
+        <h3>Decrement (--)</h3>
+
+        <p>L'operador decrement decrementa (resta un) al seu operand i retorna el seu valor.</p>
+        <p>Emprat com a sufix, és a dir, amb l'operador després de l'operand (per exemple:  x--), retorna el valor de l'operand abans de decrementar-lo.</p>
+        <p>Emprat com a prefix, és a dir, amb l'operador precedint l'operand (per exemple: --x), retorna el valor de l'operand després de decrementar-lo.</p>
+
+        <pre class="code">
+
+        // Sufix
+        var x = 3;
+        y = x--; // y = 3, x = 2
+            
+        // Prefix
+        var a = 2;
+        b = --a; // a = 1, b = 1   
+
+        </pre>
+
+        <h3>Negació unària (-)</h3>
+        
+        <p>L'operador de negació unària precedeix el seu operand i el nega.</p>
+
+        <pre class="code">
+
+        var x = 3;
+        y = -x; // y = -3, x = 3
+
+        </pre>
+
+        <h2 id="condi">Condicionals: if...else</h2>
+
+        <p>La sentència if executa una sentència si una condició especificada és certa. Si la condició és falsa, opcionalment s'executa una declaració diferent</p>
+
+        <pre class="code">
+
+        if (condició)
+        sentència1
+        [else
+        sentència2]
+
+        </pre>
+
+        <h3>Condició</h3>
+        <p>Una expressió que esdevé o certa o falsa.</p>
+
+        <h3>sentència 1</h3>
+        <p>És la sentència que s'executa si la condició esdevé certa. Pot ser qualsevol declaració, incloent més sentències if aniuades. Per executar múltimples sentències, es fa servir una sentència block ({ ... }) per agrupar aquestes sentències, si no es vol executar cap sentència, es fa servir una sentència buida.
+        </p>
+
+        <h3>sentència 2</h3>
+        <p>És la sentència que s'executa si la condició esdevé certa. Pot ser qualsevol declaració, incloent més sentències if aniuades. Per executar múltimples sentències, es fa servir una sentència block ({ ... }) per agrupar aquestes sentències, si no es vol executar cap sentència, es fa servir una sentència buida.
+        </p>
+
+        <p>Per executar múltiples sentències dins una clàusula, utilitzeu una sentència block ({ ... }) per agrupar aquestes sentències. En general, és una bona pràctica utilitzar sempre sentències de block, especialment en codi que inclogui sentències if aniuades:</p>
+
+        <pre class="code">
+
+        if (condició) {
+            sentència1
+        } else {
+            sentència2
+             }
+
+        </pre>
+
+        <h3>Condicional Switch</h3>
+
+        <p>La declaración switch evalúa una expresión, comparando el valor de esa expresión con una instancia case, y ejecuta declaraciones asociadas a ese case, así como las declaraciones en los case que siguen.</p>
+
+        <p>expresión: És una expressió que és comparada amb el valor de cada instància case.</p>
+
+        <p>case valorN: Una instància casi valorN és usada per a ser comparada amb l'expressió. Si l'expressió coincideix amb el valorN, les declaracions dins de la instància casi s'executen fins que es trobi el final de la declaració switch o fins a trobar una interrupció break.</p>
+
+        <p>default: Una instància default, quan és declarada, és executada si el valor de l'expressió no coincideix amb qualsevol de les altres instàncies casi valorN.</p>
+
+        <p>Si ocorre una coincidència, el programa executa les declaracions associades corresponents. Si l'expressió coincideix amb múltiples entrades, la primera serà la seleccionada, fins i tot si les majúscules són tingudes en compte.</p>
+
+        <p>Exemple:</p>
+
+        <pre class="code">
+
+            switch (expr) {
+                case 'Naranjas':
+                  console.log('El kilogramo de naranjas cuesta $0.59.');
+                  break;
+                case 'Manzanas':
+                  console.log('El kilogramo de manzanas cuesta $0.32.');
+                  break;
+                case 'Platanos':
+                  console.log('El kilogramo de platanos cuesta $0.48.');
+                  break;
+                case 'Cerezas':
+                  console.log('El kilogramo de cerezas cuesta $3.00.');
+                  break;
+                case 'Mangos':
+                case 'Papayas':
+                  console.log('El kilogramo de mangos y papayas cuesta $2.79.');
+                  break;
+                default:
+                  console.log('Lo lamentamos, por el momento no disponemos de ' + expr + '.');
+              }
+              
+              console.log("¿Hay algo más que te quisiera consultar?");
+
+        </pre>
+
+        <h2 id="Func">Funcions</h2>
+
+        <p>Les funcions són un dels blocs de construcció fonamentals en JavaScript. Una funció en JavaScript és similar a un procediment - un conjunt d'instruccions que realitza una tasca o calcula un valor, però perquè un procediment qualifiqui com a funció, ha de prendre alguna entrada i retornar una sortida on hi ha alguna relació òbvia entre l'entrada i la sortida. Per utilitzar una funció, has de definir-la en algun lloc de l'àmbit des del que vols cridar-la.</p>
+
+        <h4>Definir funcions</h4>
+        <p>Una definició de funció (també anomenada declaració de funció o expressió de funció) consta de la paraula clau function, seguida de:</p>
+        <p>El nom de la funció.</p>
+        <p>Una llista de paràmetres de la funció, entre parèntesis i separats per comes.</p>
+            
+        <p>Les declaracions de JavaScript que defineixen la funció, tancades entre claus, {...}.</p>
+
+        <pre class="code">
+
+        Exemple:
+        function square(number) {
+            return number * number;
+              }
+
+        </pre>
+
+        <p>Trucar a la funció en realitat porta a terme les accions especificades amb els paràmetres indicats. Per exemple, si defineixes la funció square, podries cridar-la amb square (5).</p>
+
+        <p>No es pot accedir a les variables definides dins d'una funció des de qualsevol lloc fora de la funció, perquè la variable es defineix només en l'àmbit de la funció. No obstant això, una funció pot accedir a totes les variables i funcions definides dins de l'àmbit en el qual està definida.</p>
+
+        <p>En altres paraules, una funció definida en l'àmbit global pot accedir a totes les variables definides en l'àmbit global. Una funció definida dins d'una altra funció també pot accedir a totes les variables definides en la seva funció principal i a qualsevol altra variable a la qual tingui accés la funció principal.</p>
+
+        <pre class="code">
+
+        // Las siguientes variables se definen en el ámbito global
+                var num1 = 20,
+                    num2 = 3,
+                    name = 'Chamahk';
+
+        // Esta función está definida en el ámbito global
+
+                function multiply() {
+                return num1 * num2;
+                }
+
+                multiply(); // Devuelve 60
+
+        // Un ejemplo de función anidada
+
+                function getScore() {
+                var num1 = 2,
+                    num2 = 3;
+
+                function add() {
+                    return name + ' anotó ' + (num1 + num2);
+                }
+
+                return add();
+                }
+
+        getScore(); // Devuelve "Chamahk anotó 5"
+
+        </pre>
+
+        <h2 id="let">Let</h2>
+
+        <p>La instrucción let declara una variable de alcance local con ámbito de bloque(block scope), la cual, opcionalmente, puede ser inicializada con algún valor.</p>
+
+        <p>let et permet declarar variables limitant el seu abast (scope) a el bloc, declaració, o expressió on s'està usando.a diferència de la paraula clau var la qual defineix una variable global o local en una funció sense importar l'àmbit de l'bloc. L'altra diferència entre var i let és que aquest últim s'inicialitza a un valor només quan un analitzador ho avalua (veure a baix).</p>
+
+        <p>A l'igual que const, let no crea propietats de l'objecte es declara globalment (en l'abast més alt).</p>
+        
+        <p>Utilitza la paraula reservada let per definir variables dins d'un bloc.</p>
+
+        <pre class="code">
+
+        if (x > y) {
+            let gamma = 12.7 + y;
+            i = gamma * x;
+              }
+
+        </pre>
+
+        <h2 id="Str">String</h2>
+
+        <p>L'Objecte global String és un constructor per a strings, también conegudes com a Cadenes de Caràcters.</p>
+
+        <p>Les Strings són útils per a emmagatzemar tats que podin ser representades en forma de texte. D'algunes de les Operacions més emprades en strings són per a obtindre su llargada length, per a concatenar-les mitjançant a els Operadors de strings + i + =, per a comprovar l'existència o Localització de substrings amb el mètode indexOf (), o Bé per a extreure substrings amb el mètode substring ().</p>
+
+        <h2 id="Num">Number</h2>
+
+        <p>L'Objecte de JavaScript Number és un Objecte embolcall que permet treballar amb valors numèrics. Un Objecte de tipo Number és creat Quan és crida el constructor Number ().</p>
+
+        <p>Els usos pricipals de l'objecte Number són: Si l'argument dóna a el constructor no és pot convertir en un nom AQUEST retorna NaN, si Number pot ser emprat per a realitzar Conversions de tipo sense necesitat de crear un nou objecte.</p>
+
+        <p>Exemples:</p>
+
+        <ul>
+            <li><p>Number.parseFloat (): Fa la mateixa Funció que el mètode parseFloat de l'objecte global. </p></li>
+            <li><p>Number.parseInt (): Fa la mateixa Funció que el mètode parseInt de l'objecte global.</p></li>
+        </ul>
+
+        <h2 id="for">For</h2>
+
+        <p>La sentència for crea un bucle que consta de tres expressions opcionals, embolcallades entre paràntesis i separades per punts i comes, seguits d'una sentència o un grup de sentències executades en el bucle.</p>
+
+        <ul>
+
+        <li><p>Inicialització: Una expressió (incloent expressions d'assignació) o declaració de variables. Normalment s'usa per inicialitzar una variable al contador. Opcionalment aquesta expressió pot declarar noves variables amb la paraula clau var.  Aquestes variables no sóc locals pel bucle, és a dir, es troben en el mateix àmbit en que es troba el bucle for. El resultat d'aquesta expressió es descarta.</p></li>
+
+        <li><p>Condició: Una expressió que s'avalua abans de cada iteració del bucle. Si aquesta expressió s'avalua true, s'executa la sentència. Aquesta prova condicional és opcional. Si s'omet, la condició sempre avalua true. Si l'expressió avalua a false, l'execució salta a la primera expressió que es trobi després del constructe for.</p></li>
+
+        <li><p>Expressió final: Una expressió per ser avaluada al final de cada iteració del bucle. Això passa abans de la següent avaluació de condició. Generalment s'usa per actualitzar o incrementar la variable contador</p></li>
+
+        <li><p>Sentència: Una sentència que s'executa mentre la condició avalui a true. Per executar múltiples sentències dins el bucle, utilitzeu una sentència block ({ ... }) per agrupar aquestes sentències. Per no executar cap sentència dins el bucle, utilitzeu una sentència buida  (;).</p></li>
+
+
+        </ul>
+
+        <p>Exemple:</p>
+
+        <pre class="code">
+
+        for (var i = 0; i &lt; 9; i++) {
+            console.log(i);
+            // more statements
+             }
+
+        </pre>
+
+        <h2 id="while">While</h2>
+
+        <p>la sentència while crea un bucle que executa una sentència especificada sempre que la condició s'avalui certa. La condició s'avalua abans d'executar la sentència.. </p>
+
+        <pre class="code">
+
+        while (condició) {
+            sentència
+              }
+
+        </pre>
+
+        <p>Condició: Una expressió que s'avalua abans de cada passada del bucle. Si aquesta condició esdevé certa, s'executa la sentència. Quan la condició esdevé falsa, l'execució continua amb la sentència posterior al bucle while.</p>
+
+        <p>Sentència: Una sentència que s'executa sempre que la condició esdevingui certa. Per executar múltiples sentències dins un bucle, podeu fer ús de la sentència block ({ ... }) per agrupar aquestes sentències.</p>
+
+      
+        <pre class="code">
+
+        var n = 0;
+        var x = 0;
+
+        while (n &lt; 3) {
+        n++;
+        x += n;
+                    }
+
+        </pre>
+
+        <h2 id="Array">Array</h2>
+        
+        <p>L'objecte de JavaScript Array és un objecte global que s'utilitza per a construir arrays; que són objectes d'al nivell que representen llistes.</p>
+
+        <p>Els arrays són objectes semblants a lliste el prototipus dels quals té mètodes que permeten realitzar operacions de travessa i mutació. Ni a longitud ni el tipus dels elements són fixos en els arrays de JavaScript. Com que el tamany d'un array pot canviar en qualsevol moment no es pot garantir la seva densitat. En general aquestes característiques són convenients; però si en algun cas aquestes característiques no fossin convenients es recomana considerar l'ús de arrays amb tipus.</p>
+
+        <pre class="code">
+
+        var fruites = ["Poma", "Pera"];
+
+        console.log(fruites.length);
+        // 2
+
+        </pre>
+
+        <h2 id="forof"> For...of</h2>
+
+        <p>La instrucció for...of crea un bucle que itera sobre objectes iterables (incloent Array, Map, Set, l'objecte arguments, etcètera), tot invocant un bloc de codi amb les instruccions a executar per a cada valor de la propietat.</p>
+
+
+        <p>El següent exemple mostra la diferència entre el bucle for...of i el bucle for...in. Mentre for...in itera sobre noms de propietats, for...of itera sobre els valors de les propietats:</p>
+
+        <pre class="code">
+
+        let arr = [3, 5, 7];
+        arr.foo = "hola";
+
+        for (let i in arr) {
+        console.log(i); // mostra "0", "1", "2", "foo"
+            }
+
+        for (let i of arr) {
+        console.log(i); // mostra "3", "5", "7"
+            }
+
+        </pre>
+
+
+        
+
+        <h2 id="Deb">Debuger</h2>
+        
+        <p>El debuger et permet inspeccionar pas a pas el codi de JavaScript i examinar o modificar el seu estat ajudant a eliminar errors.</p>
+
+        <p>La icona d'Opcions del debuger, quan prems, presenta un menú d'opcions emergent que et deixa ajustar el comportament del debuguer.
+        </p>
+
+        <p> Pausa en excepcions: Quan aquesta opció està marcada, l'execució de l'script es pausará automàticament cada vegada que es produeixi una excepció de JavaScript.</p>
+
+        <p> Mostra panells a l'inici: Quan aquesta opció està marcada, els dos panells de la barra lateral de l'depurador són visibles quan s'inicia el depurador per primera vegada; per defecte, no es veuen.</p>
+
+        <p>Mostra propietats ocultes: Si no marques aquesta opció, les propietats de JavaScript ocultes (és a dir, aquelles que són no-enumerables) no es mostren.</p>
+
+        <p>Mostra quadre de cerca de variables: Habilitar aquesta opció afegeix un quadre de cerca "Filtrar variables" a el panell de variables, que pugui filtrar la llista de variables que es mostra.</p>
+
+        <h3>Breakpoints</h3>
+
+        <p>Podeu establir un punt d'interrupció triant l'arxiu en el qual desitja establir un punt d'interrupció (si encara no ho està mirant) utilitzant el menú desplegable de l'selector de guions i després fent clic a la columna de el número de línia, a l'esquerra de l' to the left of the line number itself, en la línia de codi en la qual desitja establir un punt de interrupción.También pot fer clic amb el botó dret en el codi, en la línia en la qual voleu crear un punt d'interrupció, i utilitzar el menú de context resultant per crear un punt d'interrupció (Ctrl + B o Cmd-B) o un punt d'interrupció condicional (Ctrl + Shift + B o Cmd-Maj-B)</p>
+
+
+
+
+
+
+
+
 
    <h2 id="workclass">Treballs a Classe</h2>
 
@@ -880,6 +1309,30 @@ width="400" height="400"></iframe>
    <li><p><a href="./midesmedia.html">Mediaqueries de 4 blocs a 2 i 4 de nou</a></p></li>
 
    <li><p><a href="./WEBresp/index.html">Web responsive Summer Mobile First</a></p></li>
+
+   <li><p><a href="./Winter/index.html">Web responsive Winter PC First</a></p></li>
+
+   <li><p><a href="./OSCR-MAJONES/index.html">Web Majones exercici Client-Proveïdor</a></p></li>
+
+   <li><p>JAVASCRIPT </p></li>
+    <ul>
+        <li><p><a href="./javascript/pruebajs.html">Primer dia de JavaScript</a></p></li>
+        <li><p><a href="./javascript/prubasjs2.html">Segon dia de JavaScript</a></p></li>
+        <li><p><a href="./javascript/provajs3.html">Tercer dia de JavaScript</a></p></li>
+        <li><p><a href="./javascript/arrays.html">Arrays</a></p></li>
+        <li><p><a href="./javascript/numer_methods.html">Number Method</a></p></li>
+        <li><p><a href="./javascript/string_method.html">String Method</a></p></li>
+        <li><p><a href="./javascript/bucle_for.html">Bucle for</a></p></li>
+        <li><p><a href="./javascript/exercpres.html">Exercicis diversos</a></p></li>
+         <li><p><a href="./javascript/repas.js">Repàs de tot lo anterior</a></p></li>
+        <li><p><a href="./javascript/exercicis.js">Exercicis de repàs</a></p></li>
+        <li><p>NOTA: Consultar el repositiori clonat a la carpeta Omar on hi ha un document per cada tema amb varis exemples i un document de repàs general</p></li>
+    
+    
+    
+    
+    
+    </ul>
 
    
    </ul>
